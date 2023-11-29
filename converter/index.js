@@ -27,7 +27,7 @@ async function createTranslation(audioFileName) {
 
 async function main() {
   try {
-    const audioFileName = "audio.mp3";
+    const audioFileName = "./audio/audio.mp3";
     const transcription = await createTranscription(audioFileName);
     console.log(transcription);
 
